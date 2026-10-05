@@ -51,4 +51,4 @@ cargo add switchboard-sdk               # Rust
 docker compose up --build   # Admin UI + REST + live updates at http://localhost:8080
 ```
 
-<p align="center"><sub>Apache-2.0 · self-hosted · no lock-in</sub></p>
+<p align="center"><sub>Apache-2.0 · self-hosted · no lock-in · built by <a href="https://parags.dev">Parag Sawant</a> (<a href="https://github.com/paragpsawant">GitHub</a>)</sub></p>

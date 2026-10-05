@@ -37,17 +37,11 @@ lands in the same percentage slice no matter which SDK your services use.
 
 ### Install
 
-```bash
-dotnet add package Switchboard.Sdk      # .NET
-npm install @switchboard/sdk            # JavaScript
-pip install switchboard-sdk             # Python
-go get github.com/switchboard-io/switchboard-go
-cargo add switchboard-sdk               # Rust
-```
-
-### Run the server
+Self-host from source today (pre-built SDK packages are on the way):
 
 ```bash
+git clone https://github.com/switchboard-io/switchboard.git
+cd switchboard
 docker compose up --build   # Admin UI + REST + live updates at http://localhost:8080
 ```
 
